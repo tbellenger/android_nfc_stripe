@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PayMeBack</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="num_pad_one">1</string>
+    <string name="num_pad_two">2</string>
+    <string name="num_pad_three">3</string>
+    <string name="num_pad_four">4</string>
+    <string name="num_pad_five">5</string>
+    <string name="num_pad_six">6</string>
+    <string name="num_pad_seven">7</string>
+    <string name="num_pad_eight">8</string>
+    <string name="num_pad_nine">9</string>
+    <string name="num_pad_zero">0</string>
+    <string name="num_pad_zeroes">00</string>
+    <string name="num_pad_clear">Clear</string>
+    <string name="num_pad_pay">Pay</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="txt_tap_card">Tap card to pay</string>
+    <string name="txt_reading_card">Reading card</string>
+    <string name="txt_online_processing">Online processing</string>
+    <string name="txt_login">Logged in to</string>
+    <string name="txt_logout">Logged out</string>
+    <string name="txt_date">Date:</string>
+    <string name="txt_time">Time:</string>
+    <string name="txt_pan">PAN:</string>
+    <string name="txt_gross">Gross Amt:</string>
+    <string name="txt_discount">Discount:</string>
+    <string name="txt_net">Net Amt:</string>
+    <string name="txt_dummy">"$65.00"</string>
+    <string name="version">1.13</string>
+
+</resources>
