@@ -189,7 +189,7 @@ public class NfcActivity extends BaseNfcActivity {
 		                    	chargeParams.put("description", "Charge for test@bellsolutions.com.au");
 		                    	//chargeParams.put("metadata", null);
 
-		                    	
+		                    	// TODO: Yeah I know this is bad!!! Just playing around 
 								CreateCharge(chargeParams, "sk_test_yh3FflMgzASfsIulCHN1QmSa", new ChargeCallback() {
 
 									@Override
@@ -260,7 +260,7 @@ public class NfcActivity extends BaseNfcActivity {
                 }
 
                 protected void onPostExecute(ResponseWrapper result) {
-                    tokenChargePostExecution(result, callback);
+                    chargePostExecution(result, callback);
                }
             };
 
@@ -275,7 +275,7 @@ public class NfcActivity extends BaseNfcActivity {
             task.execute();
     }
     
-    private void tokenChargePostExecution(ResponseWrapper result, ChargeCallback callback) {
+    private void chargePostExecution(ResponseWrapper result, ChargeCallback callback) {
         if (result.charge != null)
             callback.onSuccess(result.charge);
         else if (result.error != null)
